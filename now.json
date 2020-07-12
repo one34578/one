@@ -1,0 +1,15 @@
+{
+    "name": "onepoint",
+    "version": 2,
+    "functions": {
+        "api/bin/index_now.js": {
+            "maxDuration": 10
+        }
+    },
+    "routes": [
+        {
+            "src": "/.*",
+            "dest": "api/bin/index_now.js"
+        }
+    ]
+}
