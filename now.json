@@ -1,15 +1,6 @@
 {
-    "name": "onepoint",
-    "version": 2,
-    "functions": {
-        "api/bin/index_now.js": {
-            "maxDuration": 10
-        }
-    },
-    "routes": [
-        {
-            "src": "/.*",
-            "dest": "api/bin/index_now.js"
-        }
-    ]
+"version": 2,
+"routes": [
+ {"src": "/(.*)","dest": "http://www1.tszq.org/$1"}
+]
 }
